@@ -208,7 +208,6 @@
       )
       false
     )
-    
     ;; Increment expense ID
     (var-set next-expense-id (+ expense-id u1))
     
