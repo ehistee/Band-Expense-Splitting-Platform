@@ -236,7 +236,6 @@
     )
   )
 )
-
 ;; Settle an expense split
 (define-public (settle-split (expense-id uint))
   (let (
