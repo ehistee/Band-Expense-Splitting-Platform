@@ -153,7 +153,6 @@
         members: (unwrap-panic (as-max-len? (append (get members band-info) member) u20))
       })
     )
-    
     ;; Update user's band list
     (match (map-get? user-bands member)
       existing-bands (map-set user-bands member (unwrap-panic (as-max-len? (append existing-bands band-id) u10)))
