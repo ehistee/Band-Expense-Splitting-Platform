@@ -302,7 +302,6 @@
     none
   )
 )
-
 ;; Check if expense is fully settled
 (define-read-only (is-expense-settled (expense-id uint))
   (match (map-get? expenses expense-id)
